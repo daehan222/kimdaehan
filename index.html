@@ -34,19 +34,19 @@
         }
 
         .wrap{
-  width: 500px;
+	width: 500px;
        height: 250px;
-  margin: 0 auto;
-  position: relative;
-  overflow: hidden;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
 }
-  
+	
 .img_list{
-  width: 1500px;
-  height: 250px;
-  position: absolute;
-  top: 0;
-  left: 0;
+	width: 1500px;
+	height: 250px;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
     
 .img_list li{
@@ -54,8 +54,8 @@
 }
     
 .img_list img{
-  width: 500px;
-  height: 250px;
+	width: 500px;
+	height: 250px;
 }
   
       #container {
@@ -145,6 +145,7 @@
     <img src="img/r4.png" alt="1">
     </a>
   </div>
+
   <div class="image-container">
     <a href="javascript:chatChannel()">
     <img src="img/r5.jpg" alt="1">
@@ -221,7 +222,7 @@
 
   function setTransformValue(value) {
     const container = document.getElementById('container');
-    container.style.transform = translateX(${value}px);
+    container.style.transform = `translateX(${value}px)`;
   }
 </script>
 
